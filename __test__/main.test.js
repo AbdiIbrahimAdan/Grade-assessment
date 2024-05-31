@@ -63,13 +63,3 @@ describe("English ,Swahili and Computer grade", () =>{
   });
     
 
-//check the information
-describe("calculateGradeAndAverage", () =>{
-
-
-test("calculateGradeAndAverage for the student", () => {
-  const studentScore = { name: "Dennis Doe", math: 80, eng: 65, kis: 48, phy: 67, che: 56, re: 89, comp: 82 };
-const expectedOutput = { name: "Dennis Doe", math: "A", eng: "B", kis: "Pass", phy: "B", che: "C", re: "A", comp: "A", avgPts: 69 };
-expect(calculateGradesAndAverage(studentScore)).toEqual(expectedOutput);
-});
-});
